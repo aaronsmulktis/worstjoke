@@ -8,7 +8,7 @@
 
 					<div id="lower-box" class="col-sm-12">
 						<?php get_sidebar('lower-homepage'); // jumbotron ?>
-						<div class="container-fluid text-center"><button>Sign the Petition</button></div>
+						<div class="container-fluid text-center"><a href="https://www.savethearctic.org/"><button>Sign the Petition</button></a></div>
 					</div>
 											
 				</div>
@@ -27,7 +27,7 @@
 						<li>Tag it #worstjoke and #savethearctic and share it on your favorite social platform.</li>
 						<li>Tag a couple friends and challenge them to tell a worse joke.</li>
 					</ol>
-					<p>Together we can tell Shell and President Obama that Arctic Drilling is No Joke.</p>
+					<p class="span">Together we can tell Shell and President Obama that Arctic Drilling is No Joke.</p>
 					<hr>
 				</div>
 			</div>
@@ -44,11 +44,11 @@
 
 		<div id="footer" class="container-fluid">
 			
-			<div id="inner-footer" class="row clearfix">
+			<div id="inner-footer" class="text-center row">
 				
-				<h1 class="text-center"><a href="http://greenpeace.com" id="credit320" title="Greenpeace">Greenpeace</a></h1>
+				<div class="arctic-logo"></div>
 
-				<nav class="text-center clearfix">
+				<nav class="text-center">
 					<?php wp_bootstrap_footer_links(); // Adjust using Menus in Wordpress Admin ?>
 				</nav>
 			

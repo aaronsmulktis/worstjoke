@@ -59,6 +59,28 @@ img {
 	width:100%;
 }
 
+button {
+	padding: 5px 50px;
+	border: 2px solid @red;
+	font-family: Dense;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: @red;
+	background: none;
+	transition: all 0.5s easeinout;
+	-webkit-transition: all 0.5s easeinout;
+}
+
+button:hover {
+	background: fade(@red, 40%);
+	transition: all 0.5s easeinout;
+	-webkit-transition: all 0.5s easeinout;
+}
+
+.span {
+	color: @red;
+}
+
 .nopadding {
 	padding: 0;
 }
@@ -75,11 +97,43 @@ img {
 
 #logo {
 	display: block;
-	width: 285px;
-	height: 98px;
+	width: 400px;
+	height: 110px;
 	background: url(../../../images/logo.png) no-repeat;
-	background-size: cover;
-	margin-top: -85px;
+	background-size: contain;
+	margin-top: -50px;
+	margin-left: 100px;
+	margin-bottom: -100px;
+}
+
+a.bigButton {
+	padding: 28px 8px;
+	background: @red;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.3em;
+	border: 1px dashed #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 0 4px @red, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+	text-shadow: -1px -1px #aa3030;
+	font-weight: normal;
+	width: 100px;
+	height: 100px;
+	right: 25%;
+	top: 40px;
+	position: absolute;
+	white-space: nowrap;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'dense', sans-serif;
+}
+
+a.bigButton:hover {
+	color: white;
+	text-decoration: none;
+	background: darken(@red, 5%);
+	box-shadow: 0 0 0 4px darken(@red, 5%), 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
 }
 
 .jumbotron {
@@ -87,6 +141,7 @@ img {
 	color: @blue;
 	border-radius: 0px;
 	margin-bottom: 100px;
+	padding: 10px 60px;
 }
 
 .jumbotron p {
@@ -132,6 +187,12 @@ img {
 	background: @blue;
 	box-shadow: 3px 3px 0px darken(@blue, 10%);
 	color: white;
+	font-family: 'dense', sans-serif;
+	text-transform: uppercase;
+}
+
+#staticrandomposts-3 p {
+	font-size: 20px;
 }
 
 #staticrandomposts-3 h1 {
@@ -143,15 +204,15 @@ img {
 }
 
 #staticrandomposts-3 .static-refresh {
-	padding: 42px 8px;
-	background: #ff0030;
+	padding: 38px 8px;
+	background: @red;
 	color: #fff;
-	font-size: 11px;
+	font-size: 18px;
 	font-weight: bold;
 	line-height: 1.3em;
 	border: 1px dashed #fff;
 	border-radius: 50%;
-	box-shadow: 0 0 0 4px #ff0030, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+	box-shadow: 0 0 0 4px @red, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
 	text-shadow: -1px -1px #aa3030;
 	font-weight: normal;
 	width: 100px;
@@ -162,6 +223,12 @@ img {
 	white-space: nowrap;
 }
 
+#staticrandomposts-3 .static-refresh:hover {
+	box-shadow: 0 0 0 4px darken(@red, 5%), 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+	text-decoration: none;
+	background: darken(@red, 5%);
+}
+
 .widget {
 	padding-bottom: 20px;
 }
@@ -170,10 +237,39 @@ img {
 	background: #222224;
 }
 
-#menu-footer {
+#footer a {
+	font-family: 'dense', sans-serif;
+	color: @gray;
+	font-size: 20px;
+	transition: all 0.5s easeinout;
+	-webkit-transition: all 0.5s easeinout;
+}
+
+#footer a:hover {
+	text-decoration: none;
+	color: @blue;
+	transition: all 0.5s easeinout;
+	-webkit-transition: all 0.5s easeinout;
+}
+
+.arctic-logo {
+	background: url(../../../images/arctic-logo.png) no-repeat;
+	background-size: 200px auto;
+	display: block;
+	width: 200px;
+	height: 30px;
+	display: inline-block;
+	margin: 30px auto;
+}
+
+.footer-links {
 	float: none;
 	display: inline-block;
 	margin: 0 auto;
+}
+
+#menu-footer {
+	padding: 0px;
 }
 
 #drips {
