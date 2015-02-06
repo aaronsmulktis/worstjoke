@@ -25,12 +25,6 @@ Template Name: Homepage
 							</div>
 													
 						</section> <!-- end article header -->						
-
-						<footer>
-			
-							<p class="clearfix"><?php the_tags('<span class="tags">' . __("Tags","wpbootstrap") . ': ', ', ', '</span>'); ?></p>
-							
-						</footer> <!-- end article footer -->
 					
 					</article> <!-- end article -->
 					
@@ -53,6 +47,15 @@ Template Name: Homepage
 			
 				</div> <!-- end #main -->
     
+				<section class="row">
+
+					<div class="col-sm-12">
+						<h1 class="text-center">The Facts About Arctic Drilling</h1>
+						<?php echo do_shortcode('[carousel-horizontal-posts-content-slider]'); ?>
+					</div>
+
+				</section>
+
 			</div> <!-- end #content -->
 
 		</div>
