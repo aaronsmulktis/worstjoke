@@ -34,40 +34,50 @@
 		          <script type='text/javascript' src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
 		<![endif]-->
 
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+		
 		<script src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.isotope.min.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.socialist.js"></script>
 
-		<script type="text/javascript">
-			$(document).ready(function () {
-			    $('#social-content').socialist({
-			        networks: [
-			            {name:'facebook',id:'greenpeace.international'},
-			            // {name:'twitter',id:'aaronsmulktis'},
-			            // {name:'pinterest',id:'potterybarn'},
-			            {name:'rss',id:'http://widget.websta.me/rss/tag/worstjoke'},
-			            {name:'rss2',id:'https://script.googleusercontent.com/macros/echo?user_content_key=NMtqTTVDgIMVhcgSCv9mQWWyGmu3MGhPo93xkbIa6QQwBwQk_xPsJN4iE0eIDRimX1LIL6dBGUwfqD6XravKwR8r5-_JDmrcm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnMNsNYpISpo-Jg9GdSwHPBc5eYeyH6PuHAmHCZMn-CJiCmL2EEHmea5iV3pVgc1_asapA19qtLci5_Pq-VP3zMaBOfI2CXewjcGD6mYBOprp&lib=MTrtdZmoSB9S4R3YMLCDMLVDLLuzzHBvJ'},
-			           ],
-			        isotope:true,
-			        random:true,
-			        maxResults:100,
-			        fields:['source','heading','text','date','image','followers','likes']
-			    });
-			});
-		</script>
+		<!-- basic stylesheet -->
+		<link rel="stylesheet" href="/wp-content/plugins/new-royalslider/lib/royalslider/royalslider.css">
+
+		<!-- skin stylesheet (change it if you use another) -->
+		<link rel="stylesheet" href="/wp-content/themes/worstjoke/rs-red/rs-red.css">
+
+		<!-- Main slider JS script file --> 
+		<!-- Create it with slider online build tool for better performance. -->
+		<script src="/wp-content/plugins/new-royalslider/lib/royalslider/jquery.royalslider.min.js"></script>
+
+		// <script type="text/javascript">
+		// 	$(document).ready(function () {
+		// 	    $('#social-content').socialist({
+		// 	        networks: [
+		// 	            {name:'facebook',id:'greenpeace.international'},
+		// 	            // {name:'twitter',id:'aaronsmulktis'},
+		// 	            // {name:'pinterest',id:'potterybarn'},
+		// 	            {name:'rss',id:'http://widget.websta.me/rss/tag/worstjoke'},
+		// 	            {name:'rss2',id:'https://script.googleusercontent.com/macros/echo?user_content_key=NMtqTTVDgIMVhcgSCv9mQWWyGmu3MGhPo93xkbIa6QQwBwQk_xPsJN4iE0eIDRimX1LIL6dBGUwfqD6XravKwR8r5-_JDmrcm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnMNsNYpISpo-Jg9GdSwHPBc5eYeyH6PuHAmHCZMn-CJiCmL2EEHmea5iV3pVgc1_asapA19qtLci5_Pq-VP3zMaBOfI2CXewjcGD6mYBOprp&lib=MTrtdZmoSB9S4R3YMLCDMLVDLLuzzHBvJ'},
+		// 	           ],
+		// 	        isotope:true,
+		// 	        random:true,
+		// 	        maxResults:100,
+		// 	        fields:['source','heading','text','date','image','followers','likes']
+		// 	    });
+		// 	});
+		// </script>
 
 		<!-- RANDOM POST GENERATOR -->
-		<script type="text/javascript">
-	        $(document).ready(function(e) {
-                $("#loadJoke").on('click', function(){
+		// <script type="text/javascript">
+	 //        $(document).ready(function(e) {
+  //               $("#loadJoke").on('click', function(){
 
-                    $.post('random.php', 
-                    function(data){
-                        $('#randomJoke').html(data);
-                    });
-                });
-	        });
-     	</script>
+  //                   $.post('random.php', 
+  //                   function(data){
+  //                       $('#randomJoke').html(data);
+  //                   });
+  //               });
+	 //        });
+  //    	</script>
 
 	</head>
 	
