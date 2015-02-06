@@ -34,7 +34,6 @@
 		          <script type='text/javascript' src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
 		<![endif]-->
 
-		
 		<script src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.isotope.min.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.socialist.js"></script>
 
@@ -43,6 +42,9 @@
 
 		<!-- skin stylesheet (change it if you use another) -->
 		<link rel="stylesheet" href="/wp-content/themes/worstjoke/rs-red/rs-red.css">
+
+		<!-- JQUERY  -->
+		<script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 
 		<!-- Main slider JS script file --> 
 		<!-- Create it with slider online build tool for better performance. -->
