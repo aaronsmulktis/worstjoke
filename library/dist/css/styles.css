@@ -8909,6 +8909,9 @@ a#bigButton:hover {
   padding: 0px 20px 10px 20px;
   text-transform: uppercase;
 }
+.chpcs_foo_content {
+  text-align: left;
+}
 /*.twine-embed-iframe, #twine-embed-iframe {
 	border: 1px dotted @blue;
 	border-radius: 10px;
