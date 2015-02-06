@@ -87,7 +87,7 @@
 			<div class="jumbotron">
 
 				<a href="/"><div id="logo" class="pull-left"></div></a>
-				<a class="bigButton pull-right" href="#shareYours">Share Your<br />#Worstjoke</a>
+				<a id="bigButton" href="#shareYours">Share Your<br />#Worstjoke</a>
 
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1">
