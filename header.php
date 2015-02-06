@@ -49,7 +49,7 @@
 
 		<!-- Main slider JS script file --> 
 		<!-- Create it with slider online build tool for better performance. -->
-		<!-- <script src="/wp-content/plugins/new-royalslider/lib/royalslider/jquery.royalslider.min.js"></script> -->
+		<script src="/wp-content/plugins/new-royalslider/lib/royalslider/jquery.royalslider.min.js"></script>
 
 		// <script type="text/javascript">
 		// 	$(document).ready(function () {
