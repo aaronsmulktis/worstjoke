@@ -27,7 +27,7 @@
 						<li>Tag it #worstjoke and #savethearctic and share it on your favorite social platform.</li>
 						<li>Tag a couple friends and challenge them to tell a worse joke.</li>
 					</ol>
-					<p class="span">Together we can tell Shell and President Obama that Arctic Drilling is No Joke.</p>
+					<p class="span" style="padding-left: 22px;"><strong>Together we can tell Shell and President Obama that Arctic Drilling is No Joke.</strong></p>
 					<hr>
 				</div>
 			</div>
