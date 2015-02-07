@@ -85,6 +85,13 @@
 	 //        });
   //    	</script>
 
+  		<script type="text/javascript">
+  			$('#logo').click(function(){
+			    $("html, body").animate({ scrollTop: 0 }, 600);
+			    return false;
+			 });
+  		</script>
+
 	</head>
 	
 	<body <?php body_class(); ?>>
