@@ -70,7 +70,7 @@
 	border-radius: 50%;
 }
 .rsRed .rsArrowIcn:hover {
-	background-color: rgba(0,0,0,0.9);
+	background-color: rgba(0,0,0,0.0);
 }
 
 .rsRed.rsHor .rsArrowLeft .rsArrowIcn { background-position: -64px -32px; }
