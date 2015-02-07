@@ -99,7 +99,7 @@
 		<div class="container-fluid nomargins nopadding">
 			<div class="jumbotron">
 
-				<a href="/"><div id="logo" class="pull-left"></div></a>
+				<a id="logo" class="pull-left" href="#"></a>
 				<a id="bigButton" href="#shareYours">Share Your<br />#Worstjoke</a>
 
 				<div class="row">
