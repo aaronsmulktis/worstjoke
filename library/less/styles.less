@@ -105,7 +105,7 @@ button:hover {
 	left: 120px;
 	margin-bottom: -100px;
 	position: fixed;
-	z-index: 999;
+	z-index: 9999;
 }
 
 a#bigButton {
@@ -129,7 +129,7 @@ a#bigButton {
 	text-transform: uppercase;
 	text-align: center;
 	font-family: 'dense', sans-serif;
-	z-index: 9999;
+	z-index: 999;
 }
 
 a#bigButton:hover {
@@ -190,7 +190,7 @@ a#bigButton:hover {
 
 #lower-homepage {
 	margin-top: 100px;
-	background: url(../../../images/glacier.jpg) no-repeat;
+	background: url(../../../images/glacier.jpg) center center no-repeat;
 	background-size: cover;
 	overflow: hidden;
 }
@@ -303,4 +303,96 @@ a#bigButton:hover {
 
 #twine-parent .branding-text, #twine-toolbar {
 	display: none !important;
+}
+
+/*  MEDIA QUERIES  */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (max-width: 767px) {
+	body {
+		padding-top: 140px;
+	}
+	#logo {
+		top: 20px;
+		left: 50%;
+		margin: 0px 0px 0px -160px;
+	}
+	a#bigButton {
+		top: 110px;
+		right: auto;
+		left: 50%;
+		margin-left:-15%;
+		position: absolute
+	}
+	.jumbotron {
+		padding: 60px 20px 0px 20px;
+	}
+
+	div.content-container h1 {
+		font-size: 2em;
+	}
+
+	div.chpcs_image_carousel {
+		padding: 0px 0px 15px 0px !important;
+	}
+
+	div.chpcs_foo_content {
+		padding: 0px 20px;
+	}
+
+	#lower-homepage {
+		padding: 0px;
+	}
+
+	#lower-box {
+		text-align: justify;
+		padding: 5px 0px 5px 0px;
+	}
+
+	#shareYours {
+		padding: 0px;
+	}
+
+	#shareYours ol {
+		padding: 0px 20px;
+	}
+
+	#staticrandomposts-2 {
+		margin-bottom:40px;
+		margin-top:160px;
+	}
+
+	#staticrandomposts-2 .static-refresh {
+		right: auto;
+		left: 50%;
+		margin-left: -50px;
+		top: -130px;
+	}
+
+	#lower-box p {
+		-webkit-column-count: 1;
+	    -moz-column-count: 1;
+	    column-count: 1;
+	}
+
+	figure.hammy-responsive {
+
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+	figure.hammy-responsive {
+
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+	figure.hammy-responsive {
+		
+	}
 }
