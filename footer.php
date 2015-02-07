@@ -22,11 +22,11 @@
 					<h1 class="text-center">Share Your Own #WorstJoke</h1>
 					<hr>
 					<ol class="">
-						<li>Record yourself telling your worst joke. Need ideas? Try our joke generator below.</li>
-						<li>Tag it #worstjoke and #savethearctic and share it on your favorite social platform.</li>
-						<li>Tag a couple friends and challenge them to tell a worse joke.</li>
+						<li>RECORD a video of your joke and UPLOAD it to your favorite social platform: YouTube, Facebook, Tumblr, Vine, etc.<br />Pssst...Have a webcam, but don't know how to use it? <a href="https://www.youtube.com/my_webcam">Try YouTube's Video Uploader</a></li>
+						<li>TAG your video with #WorstJoke and #SaveTheArctic - so we can share the best of the worst!</li>
+						<li>SHARE your joke and CHALLENGE your friends to do the same!</li>
 					</ol>
-					<p class="span" style="padding-left: 22px;"><strong>Together we can tell Shell and President Obama that Arctic Drilling is No Joke.</strong></p>
+					<p class="span" style="padding-left: 22px;"><strong>Need some inspiration? No problem! Try our joke generator below.</strong></p>
 					<hr>
 				</div>
 			</div>
