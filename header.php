@@ -39,17 +39,20 @@
 		<script src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.socialist.js"></script>
 
 		<!-- basic stylesheet -->
-		<link rel="stylesheet" href="/wp-content/plugins/new-royalslider/lib/royalslider/royalslider.css">
+		<link rel="stylesheet" href="<?php echo content_url(); ?>/plugins/new-royalslider/lib/royalslider/royalslider.css">
 
 		<!-- skin stylesheet (change it if you use another) -->
-		<link rel="stylesheet" href="/wp-content/themes/worstjoke/rs-red/rs-red.css">
+		<link rel="stylesheet" href="<?php echo content_url(); ?>/themes/worstjoke/rs-red/rs-red.css">
+
+		<!-- skin stylesheet (change it if you use another) -->
+		<link rel="stylesheet" href="<?php echo content_url(); ?>/themes/worstjoke/bower_components/font-awesome/css/font-awesome.css">
 
 		<!-- JQUERY  -->
 		<script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 
 		<!-- Main slider JS script file --> 
 		<!-- Create it with slider online build tool for better performance. -->
-		<script src="/wp-content/plugins/new-royalslider/lib/royalslider/jquery.royalslider.min.js"></script>
+		<script src="<?php echo content_url(); ?>/plugins/new-royalslider/lib/royalslider/jquery.royalslider.min.js"></script>
 
 		// <script type="text/javascript">
 		// 	$(document).ready(function () {
