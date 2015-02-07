@@ -8,7 +8,6 @@
 
 					<div id="lower-box" class="col-sm-12">
 						<?php get_sidebar('lower-homepage'); // jumbotron ?>
-						<div class="container-fluid text-center"><a href="https://www.savethearctic.org/"><button>Sign the Petition</button></a></div>
 					</div>
 											
 				</div>
