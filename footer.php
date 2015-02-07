@@ -1,7 +1,7 @@
 
 
 		<div id="lower-homepage" class="container-fluid">
-			<div class="row">	
+			<div class="row-fluid">	
 						
 				<div class="col-sm-6 col-sm-offset-3">
 
@@ -42,7 +42,7 @@
 
 		<div id="footer" class="container-fluid">
 			
-			<div id="inner-footer" class="text-center row">
+			<div id="inner-footer" class="text-center row-fluid">
 				
 				<div class="arctic-logo"></div>
 
@@ -55,7 +55,7 @@
 		</div> <!-- end footer -->
 
 		<div id="drips" class="container-fluid">
-			<div class="row">
+			<div class="row-fluid">
 				<div class="col-sm-8 col-sm-offset-2">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/drips.png">
 				</div>

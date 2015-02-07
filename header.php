@@ -104,14 +104,14 @@
 
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1">
-						<div class="row">
+						<div class="row-fluid">
 							<div class="col-sm-10 col-sm-offset-1">
 								<h1 class="text-center">Arctic Drilling Is No Joke!</h1>
 								<hr>
 							</div>
 						</div>
 
-						<div class="row">
+						<div class="row-fluid">
 							<div class="col-sm-4 text-left">
 								<?php get_sidebar('jumbotron'); // jumbotron ?>		
 							</div>

@@ -8,7 +8,7 @@ Template Name: Homepage
 			
 		<div id="content" class="container-fluid">
 
-			<div class="clearfix row">
+			<div class="clearfix row-fluid">
 			
 				<div id="main" class="col-sm-10 col-sm-offset-1 clearfix" role="main">
 
@@ -16,7 +16,7 @@ Template Name: Homepage
 					
 					<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
 					
-						<section class="row post_content">
+						<section class="row-fluid post_content">
 
 							<div class="col-sm-12">
 						
@@ -51,7 +51,7 @@ Template Name: Homepage
 
     	<div id="facts" class="container-fluid">
 
-    		<div class="clearfix row">
+    		<div class="clearfix row-fluid">
 				
 					<section class="col-sm-10 col-sm-offset-1">
 
