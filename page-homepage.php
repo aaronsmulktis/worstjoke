@@ -10,7 +10,7 @@ Template Name: Homepage
 
 			<div id="content" class="clearfix row">
 			
-				<div id="main" class="col-sm-8 col-sm-offset-2 clearfix" role="main">
+				<div id="main" class="col-sm-10 col-sm-offset-1 clearfix" role="main">
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
