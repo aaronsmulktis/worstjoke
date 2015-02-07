@@ -400,6 +400,34 @@ a#bigButton:hover {
 	}
 }
 
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+	#logo {
+		top: 15px;
+		left: 15px;
+		margin: 0px;
+	}
+	a#bigButton {
+		top: 15px;
+		right: 15px;
+		position: absolute;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+	#logo {
+		top:40px;
+		left:40px;
+	}
+	a#bigButton {
+		right: 30px;
+		top: 30px;
+	}
+}
+
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) {
 	figure.hammy-responsive {
