@@ -1,5 +1,4 @@
-		
-		</div> <!-- end #content-container -->
+
 
 		<div id="lower-homepage" class="container-fluid">
 			<div class="row">	

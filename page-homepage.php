@@ -6,9 +6,9 @@ Template Name: Homepage
 
 <?php get_header(); ?>
 			
-		<div class="container">
+		<div id="content" class="container-fluid">
 
-			<div id="content" class="clearfix row">
+			<div class="clearfix row">
 			
 				<div id="main" class="col-sm-10 col-sm-offset-1 clearfix" role="main">
 
@@ -46,15 +46,19 @@ Template Name: Homepage
 					<?php endif; ?>
 			
 				</div> <!-- end #main -->
-    
-				<section class="row">
+    		</div>
+    	</div>
 
-					<div class="col-sm-12">
-						<h1 class="text-center">The Facts About Arctic Drilling</h1>
-						<?php echo do_shortcode('[carousel-horizontal-posts-content-slider]'); ?>
-					</div>
+    	<div id="facts" class="container-fluid">
 
-				</section>
+    		<div class="clearfix row">
+				
+					<section class="col-sm-10 col-sm-offset-1">
+
+							<h1 class="text-center">The Facts About Arctic Drilling</h1>
+							<?php echo do_shortcode('[carousel-horizontal-posts-content-slider]'); ?>
+
+					</section>
 
 			</div> <!-- end #content -->
 
