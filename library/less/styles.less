@@ -62,7 +62,7 @@ img {
 
 button {
 	padding: 5px 50px;
-	margin: 30px auto;
+	margin: 30px auto 0px auto;
 	border: 2px solid @red;
 	font-family: Dense;
 	font-size: 20px;
@@ -195,6 +195,7 @@ a#bigButton:hover {
 div.chpcs_foo_content {
 	width: 800px !important;
 	padding: auto 200px auto 200px;
+	font-size: 24px;
 }
 
 .chpcs_image_carousel .chpcs_prev, .chpcs_image_carousel .chpcs_next {
@@ -249,6 +250,10 @@ div.chpcs_foo_content {
 	-webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
+}
+
+#lower-box button {
+
 }
 
 #staticrandomposts-2 {
@@ -341,6 +346,10 @@ div.chpcs_foo_content {
 	padding: 0px;
 }
 
+.footer-links .menu li:first-child {
+	margin-left: 0px;
+}
+
 #drips {
 	margin-bottom: 100px;
 }
@@ -400,9 +409,10 @@ div.chpcs_foo_content {
 		margin: 0px 0px 0px 0px;
 	}
 	a#bigButton {
-		top: 20px;
-		right: 10px;
-		left: auto;
+		top: 110px;
+		right: auto;
+		left: 50%;
+		margin-left: -50px;
 		position: fixed;
 		-webkit-transform-origin: top right;
 		transform-origin: top right;

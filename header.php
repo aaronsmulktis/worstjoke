@@ -112,10 +112,10 @@
 						</div>
 
 						<div class="row-fluid">
-							<div class="col-sm-4 text-left">
+							<div class="col-sm-8 text-left">
 								<?php get_sidebar('jumbotron'); // jumbotron ?>		
 							</div>
-							<div class="col-sm-8">
+							<div class="col-sm-4">
 								<?php get_sidebar('jumbotron2'); // jumbotron 2 ?>
 							</div>
 						</div>
