@@ -55,7 +55,7 @@ Template Name: Homepage
 				
 					<section class="col-sm-10 col-sm-offset-1">
 
-							<h1 class="text-center">The Facts About Arctic Drilling</h1>
+							<h1 class="text-center">Unfunny Facts About Arctic Drilling</h1>
 							<?php echo do_shortcode('[carousel-horizontal-posts-content-slider]'); ?>
 
 					</section>
