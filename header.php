@@ -9,7 +9,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title><?php wp_title( '|', true, 'right' ); ?></title>	
+		<title>#WorstJoke | Save The Arctic</title>	
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
   		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
@@ -100,22 +100,27 @@
 			<div class="jumbotron">
 
 				<a id="logo" class="pull-left" href="#"></a>
-				<a id="bigButton" href="#shareYours">Share Your<br />#Worstjoke</a>
+				<a id="bigButton" href="#shareHead">Share Your<br />#Worstjoke</a>
 
 				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
+					<div class="col-md-10 nopadding col-md-offset-1">
 						<div class="row-fluid">
 							<div class="col-sm-10 col-sm-offset-1">
-								<h1 class="text-center">Arctic Drilling Is No Joke!</h1>
+								<h2 class="text-center">Arctic Drilling <br>Is No Joke!</h2>
+							</div>
+						</div>
+
+						<div class="row-fluid">
+							<div class="col-sm-8 col-sm-offset-2">
 								<hr>
 							</div>
 						</div>
 
 						<div class="row-fluid">
-							<div class="col-sm-8 text-left">
+							<div class="col-sm-8 nopadding">
 								<?php get_sidebar('jumbotron'); // jumbotron ?>		
 							</div>
-							<div class="col-sm-4">
+							<div class="col-sm-4 padLeft20">
 								<?php get_sidebar('jumbotron2'); // jumbotron 2 ?>
 							</div>
 						</div>

@@ -1,4 +1,4 @@
-				<div id="hero" class="col-sm-12" role="complementary">
+				<div id="hero" role="complementary">
 				
 					<?php if ( is_active_sidebar( 'jumbotron2' ) ) : ?>
 

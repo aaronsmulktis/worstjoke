@@ -55,7 +55,7 @@ Template Name: Homepage
 				
 					<section class="col-sm-10 col-sm-offset-1">
 
-							<h1 class="text-center">Unfunny Facts About Arctic Drilling</h1>
+							<h2 class="text-center">Unfunny Facts About Arctic Drilling</h2>
 							<?php echo do_shortcode('[carousel-horizontal-posts-content-slider]'); ?>
 
 					</section>
@@ -71,7 +71,7 @@ Template Name: Homepage
 
 					<div class="doodle"></div>
 
-					<div id="lower-box" class="col-sm-12">
+					<div id="lower-box">
 						<?php get_sidebar('lower-homepage'); // jumbotron ?>
 					</div>
 					
@@ -83,10 +83,12 @@ Template Name: Homepage
 			
 		</div>
 
+		<div id="#shareHead"></div>
+
 		<div id="shareYours" class="container-fluid">
 			<div class="row-fluid">
 				<div class="col-sm-6 col-sm-offset-3">
-					<h1 class="text-center">Share Your Own #WorstJoke</h1>
+					<h2 class="text-center">Share Your Own #WorstJoke</h2>
 					<hr>
 					<ol class="">
 						<li>RECORD a video of your joke with your phone or webcam.</li>

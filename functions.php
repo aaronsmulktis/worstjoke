@@ -176,8 +176,8 @@ function wp_bootstrap_register_sidebars() {
     'description' => 'Used only for the hero area.',
     'before_widget' => '<div id="%1$s" class="widget %2$s">',
     'after_widget' => '</div>',
-    'before_title' => '<h1 class="widgettitle">',
-    'after_title' => '</h1><hr />',
+    'before_title' => '<h2 class="widgettitle">',
+    'after_title' => '</h2><hr />',
   ));
 
   register_sidebar(array(
@@ -186,8 +186,8 @@ function wp_bootstrap_register_sidebars() {
     'description' => 'Used only for the hero area.',
     'before_widget' => '<div id="%1$s" class="widget %2$s">',
     'after_widget' => '</div>',
-    'before_title' => '<h1 class="widgettitle">',
-    'after_title' => '</h1>',
+    'before_title' => '<h2 class="widgettitle">',
+    'after_title' => '</h2>',
   ));
 
   register_sidebar(array(
@@ -196,8 +196,8 @@ function wp_bootstrap_register_sidebars() {
   	'description' => 'Used only on the homepage page template.',
   	'before_widget' => '<div id="%1$s" class="2col widget %2$s">',
   	'after_widget' => '</div>',
-  	'before_title' => '<h1 class="text-center widgettitle">',
-  	'after_title' => '</h1>',
+  	'before_title' => '<h2 class="text-center widgettitle">',
+  	'after_title' => '</h2>',
   ));
 
   register_sidebar(array(
@@ -206,8 +206,8 @@ function wp_bootstrap_register_sidebars() {
     'description' => 'Used only on the homepage page template.',
     'before_widget' => '<div id="%1$s" class="2col widget %2$s">',
     'after_widget' => '</div>',
-    'before_title' => '<h1 class="text-center widgettitle">',
-    'after_title' => '</h1>',
+    'before_title' => '<h2 class="text-center widgettitle">',
+    'after_title' => '</h2>',
   ));
     
   register_sidebar(array(
@@ -578,7 +578,7 @@ add_filter('nav_menu_css_class', 'wp_bootstrap_add_active_class', 10, 2 );
 if( !function_exists("wp_bootstrap_theme_styles") ) {  
     function wp_bootstrap_theme_styles() { 
         // This is the compiled css file from LESS - this means you compile the LESS file locally and put it in the appropriate directory if you want to make any changes to the master bootstrap.css.
-        wp_register_style( 'wpbs', get_template_directory_uri() . '/library/dist/css/styles.9feb8074.min.css', array(), '1.0', 'all' );
+        wp_register_style( 'wpbs', get_template_directory_uri() . '/library/dist/css/styles.b32e26c7.min.css', array(), '1.0', 'all' );
         wp_enqueue_style( 'wpbs' );
 
         // For child themes

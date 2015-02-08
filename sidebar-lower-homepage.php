@@ -1,4 +1,4 @@
-				<div id="info" class="col-sm-12" role="complementary">
+				<div id="info" role="complementary">
 				
 					<?php if ( is_active_sidebar( 'lower-homepage' ) ) : ?>
 
