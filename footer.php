@@ -3,7 +3,7 @@
 		<div id="lower-homepage" class="container-fluid">
 			<div class="row-fluid">	
 						
-				<div class="col-sm-6 col-sm-offset-3">
+				<div class="col-sm-10 col-sm-offset-1">
 
 					<div id="lower-box" class="col-sm-12">
 						<?php get_sidebar('lower-homepage'); // jumbotron ?>
