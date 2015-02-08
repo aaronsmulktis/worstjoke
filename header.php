@@ -106,7 +106,7 @@
 					<div class="col-md-10 nopadding col-md-offset-1">
 						<div class="row-fluid">
 							<div class="col-sm-10 col-sm-offset-1">
-								<h2 class="text-center">Arctic Drilling <br>Is No Joke!</h2>
+								<h2 class="text-center">Arctic Drilling <br class="break">Is No Joke!</h2>
 							</div>
 						</div>
 

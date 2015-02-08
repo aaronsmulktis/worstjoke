@@ -53,7 +53,7 @@ Template Name: Homepage
 
     		<div class="clearfix row-fluid">
 				
-					<section class="col-sm-10 col-sm-offset-1">
+					<section class="col-sm-10 col-sm-offset-1 nopadding">
 
 							<h2 class="text-center">Unfunny Facts About Arctic Drilling</h2>
 							<?php echo do_shortcode('[carousel-horizontal-posts-content-slider]'); ?>
@@ -72,6 +72,7 @@ Template Name: Homepage
 					<div class="doodle"></div>
 
 					<div id="lower-box">
+						<h2 class="text-center">Arctic Drilling <br class="break">Is No Joke!</h2>
 						<?php get_sidebar('lower-homepage'); // jumbotron ?>
 					</div>
 					
@@ -83,7 +84,7 @@ Template Name: Homepage
 			
 		</div>
 
-		<div id="#shareHead"></div>
+		<div id="shareHead" class="container-fluid"></div>
 
 		<div id="shareYours" class="container-fluid">
 			<div class="row-fluid">
@@ -92,7 +93,7 @@ Template Name: Homepage
 					<hr>
 					<ol class="">
 						<li>RECORD a video of your joke with your phone or webcam.</li>
-						<li>UPLOAD it to your favorite social platform: Facebook, Vine, Instagram, etc.</li>
+						<li>UPLOAD it to your favorite social platform: Facebook, Vine, Instagram, etc.<br/>Pssst...Have a webcam, but don't know how to use it? Try <a href="https://www.youtube.com/my_webcam">YouTube's video recorder</a></li>
 						<li>TAG your video with #worstjoke and #savethearctic - so we can share the best of the worst! (Check out the feed above)</li>
 						<li>SHARE your joke and CHALLENGE a few friends to share a worse one!</li>
 					</ol>
