@@ -88,12 +88,12 @@ Template Name: Homepage
 
 		<div id="shareYours" class="container-fluid">
 			<div class="row-fluid">
-				<div class="col-sm-6 col-sm-offset-3">
+				<div class="col-sm-6 col-sm-offset-3 nopadding">
 					<h2 class="text-center">Share Your Own #WorstJoke</h2>
 					<hr>
 					<ol class="">
-						<li>RECORD a video of your joke with your phone or webcam.</li>
-						<li>UPLOAD it to your favorite social platform: Facebook, Vine, Instagram, etc.<br/>Pssst...Have a webcam, but don't know how to use it? Try <a href="https://www.youtube.com/my_webcam">YouTube's video recorder</a></li>
+						<li>RECORD a video of your joke with your phone or webcam.<br/>Pssst...Have a webcam, but don't know how to use it? Try <a href="https://www.youtube.com/my_webcam">YouTube's video recorder</a></li>
+						<li>UPLOAD it to your favorite social platform: Facebook, Vine, Instagram, etc.</li>
 						<li>TAG your video with #worstjoke and #savethearctic - so we can share the best of the worst! (Check out the feed above)</li>
 						<li>SHARE your joke and CHALLENGE a few friends to share a worse one!</li>
 					</ol>
