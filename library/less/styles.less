@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 
 hr {
 	border-color: @blue;
+	border-top: 2px solid @blue;
 }
 
 img {
@@ -61,6 +62,7 @@ img {
 
 button {
 	padding: 5px 50px;
+	margin: 30px auto;
 	border: 2px solid @red;
 	font-family: Dense;
 	font-size: 20px;
@@ -102,7 +104,7 @@ button:hover {
 	background: url(../../../images/logo.png) no-repeat;
 	background-size: contain;
 	top: 40px;
-	left: 120px;
+	left: 160px;
 	margin-bottom: -100px;
 	position: fixed;
 	z-index: 9999;
@@ -122,7 +124,7 @@ a#bigButton {
 	font-weight: normal;
 	width: 100px;
 	height: 100px;
-	right: 260px;
+	right: 180px;
 	top: 30px;
 	position: fixed;
 	white-space: nowrap;
@@ -164,10 +166,6 @@ a#bigButton:hover {
 	text-transform: uppercase;
 }
 
-.chpcs_foo_content {
-	text-align: left;
-}
-
 .twine-embed-iframe, #twine-embed-iframe {
 	border: 1px dotted @blue;
 	border-radius: 10px;
@@ -192,6 +190,11 @@ a#bigButton:hover {
 
 #facts h1, #facts h2 {
 	color: white;
+}
+
+div.chpcs_foo_content {
+	width: 800px !important;
+	padding: auto 200px auto 200px;
 }
 
 .chpcs_image_carousel .chpcs_prev, .chpcs_image_carousel .chpcs_next {
@@ -321,9 +324,6 @@ a#bigButton:hover {
 
 /*  MEDIA QUERIES  */
 
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-
 /* Small devices (tablets, 768px and up) */
 @media only screen and (max-width: 767px) {
 	body {
@@ -357,6 +357,7 @@ a#bigButton:hover {
 	}
 
 	div.chpcs_foo_content {
+		width: 300px !important;
 		padding: 0px 20px;
 	}
 
@@ -401,7 +402,7 @@ a#bigButton:hover {
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
 	#logo {
 		top: 15px;
