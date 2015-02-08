@@ -351,7 +351,38 @@ div.chpcs_foo_content {
 
 /*  MEDIA QUERIES  */
 
-/* Small devices (tablets, 768px and up) */
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+	#logo {
+		top:40px;
+		left:40px;
+	}
+	a#bigButton {
+		right: 30px;
+		top: 30px;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+	#logo {
+		top: 15px;
+		left: 15px;
+		margin: 0px;
+	}
+	a#bigButton {
+		top: 110px;
+		right: 15px;
+		position: absolute;
+	}
+	#lower-homepage .doodle, #lower-homepage .heart {
+		display: none;
+	}
+}
+
+/* Small devices (tablets, 767px and down) */
 @media only screen and (max-width: 767px) {
 	body {
 		padding-top: 140px;
@@ -428,36 +459,5 @@ div.chpcs_foo_content {
 	}
 	#lower-homepage .doodle, #lower-homepage .heart {
 		display: none;
-	}
-}
-
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-/* Styles */
-	#logo {
-		top: 15px;
-		left: 15px;
-		margin: 0px;
-	}
-	a#bigButton {
-		top: 15px;
-		right: 15px;
-		position: absolute;
-	}
-	#lower-homepage .doodle, #lower-homepage .heart {
-		display: none;
-	}
-}
-
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-/* Styles */
-	#logo {
-		top:40px;
-		left:40px;
-	}
-	a#bigButton {
-		right: 30px;
-		top: 30px;
 	}
 }
