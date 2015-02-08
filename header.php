@@ -54,7 +54,7 @@
 		<!-- Create it with slider online build tool for better performance. -->
 		<script src="<?php echo content_url(); ?>/plugins/new-royalslider/lib/royalslider/jquery.royalslider.min.js"></script>
 
-		// <script type="text/javascript">
+		<script type="text/javascript">
 		// 	$(document).ready(function () {
 		// 	    $('#social-content').socialist({
 		// 	        networks: [
@@ -73,7 +73,7 @@
 		// </script>
 
 		<!-- RANDOM POST GENERATOR -->
-		// <script type="text/javascript">
+		<script type="text/javascript">
 	 //        $(document).ready(function(e) {
   //               $("#loadJoke").on('click', function(){
 
@@ -83,7 +83,7 @@
   //                   });
   //               });
 	 //        });
-  //    	</script>
+	    </script>
 
   		<script type="text/javascript">
   			$('#logo').click(function(){
