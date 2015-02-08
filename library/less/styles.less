@@ -395,15 +395,18 @@ div.chpcs_foo_content {
 	}
 	#logo {
 		top: 20px;
-		left: 50%;
-		margin: 0px 0px 0px -160px;
+		left: 0px;
+		margin: 0px 0px 0px 0px;
 	}
 	a#bigButton {
-		top: 110px;
-		right: auto;
-		left: 50%;
-		margin-left:-15%;
-		position: absolute
+		top: 20px;
+		right: 0px;
+		left: auto;
+		position: fixed;
+		-webkit-transform-origin: top right;
+		transform-origin: top right;
+		-webkit-transform: scale(0.6);
+		transform: scale(0.6);
 	}
 	.jumbotron {
 		padding: 60px 20px 0px 20px;
