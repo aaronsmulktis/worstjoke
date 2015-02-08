@@ -201,13 +201,39 @@ div.chpcs_foo_content {
 	color: white !important;
 }
 
+#lower-homepage .doodle {
+	display: block;
+	position: absolute;
+	bottom: -90px;
+	left: -90px;
+	width: 176px;
+	height: 240px;
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+	background: url(../../../images/doodle.png) center center no-repeat;
+}
+
+#lower-homepage .heart {
+	display: block;
+	position: absolute;
+	top: 20px;
+	right: -140px;
+	width: 217px;
+	height: 225px;
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+	background: url(../../../images/heart.png) center center no-repeat;
+}
+
 #shareYours {
 	background: fade(@gray, 95%);
 	margin-top: 100px;
+	padding: 60px 0px 60px 0px;
 }
 
 #lower-homepage {
 	margin-top: 100px;
+	padding: 100px 0px 100px 0px;
 	background: url(../../../images/glacier.jpg) center center no-repeat;
 	background-size: cover;
 	overflow: hidden;
@@ -400,6 +426,9 @@ div.chpcs_foo_content {
 	figure.hammy-responsive {
 
 	}
+	#lower-homepage .doodle, #lower-homepage .heart {
+		display: none;
+	}
 }
 
 /* Smartphones (landscape) ----------- */
@@ -415,6 +444,9 @@ div.chpcs_foo_content {
 		right: 15px;
 		position: absolute;
 	}
+	#lower-homepage .doodle, #lower-homepage .heart {
+		display: none;
+	}
 }
 
 /* iPads (landscape) ----------- */
@@ -427,19 +459,5 @@ div.chpcs_foo_content {
 	a#bigButton {
 		right: 30px;
 		top: 30px;
-	}
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {
-	figure.hammy-responsive {
-
-	}
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) {
-	figure.hammy-responsive {
-		
 	}
 }
