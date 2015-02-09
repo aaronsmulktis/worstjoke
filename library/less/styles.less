@@ -366,17 +366,26 @@ div.chpcs_foo_content {
 	margin: 30px 0px 0px 0px;
 }
 
-.footer-links {
+div.footer-links {
 	float: none;
 	display: inline-block;
 	margin: 0 auto;
 }
 
-#menu-footer {
+ul#menu-footer {
 	padding: 0px;
+	list-style-type: none;
 }
 
-.footer-links .menu li:first-child {
+div.footer-links #menu-footer li {
+	float: left;
+	margin: 0px 10px;
+	color: darkgray;
+	font-size: 24px;
+	padding: 10px 0px;
+}
+
+div.footer-links #menu-footer li:first-child {
 	margin-left: 0px;
 }
 
@@ -386,6 +395,39 @@ div.chpcs_foo_content {
 
 #twine-parent .branding-text, #twine-toolbar {
 	display: none !important;
+}
+
+.modal {
+
+}
+
+.modal-open .modal {
+	z-index: 9999;
+}
+
+.modal-content {
+	background: @babyBlue;
+	color: white;
+	padding: 0 40px 20px 40px;
+}
+
+.model-content h1 {
+	color: white;
+}
+
+.model-content .modal-header {
+	border: 0px !important;
+}
+
+.modal-header .close {
+	-webkit-transform: scale(1.8);
+	transform: scale(1.8);
+	-webkit-transform-origin: top right;
+	transform-origin: top right;
+}
+
+.form-control {
+	color: @blue;
 }
 
 /*  MEDIA QUERIES  */
