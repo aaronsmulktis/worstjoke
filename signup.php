@@ -33,6 +33,9 @@
                     <div class="form-group">
                         <input class="form-control" type="text" name="fname" size="20" id="FirstName" value="First name" onfocus="clearDefault(this)" onblur="replaceInputMsg(this, 'fname')">
                     </div>
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="zip" id="ZipCode" value="US Zip" size="10" onfocus="clearDefault(this)" onblur="replaceInputMsg(this, 'zip')">
+                    </div>
                     <div class="form-group text-center">
                         <button type="submit" name="submit" value="Get Updates" class="CenterSignUp" aria-label="Close">Get Updates</button>
                     </div>
