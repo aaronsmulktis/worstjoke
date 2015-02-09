@@ -34,7 +34,7 @@
                         <input class="form-control" type="text" name="fname" size="20" id="FirstName" value="First name" onfocus="clearDefault(this)" onblur="replaceInputMsg(this, 'fname')">
                     </div>
                     <div class="form-group text-center">
-                        <button type="submit" name="submit" value="Get Updates" class="CenterSignUp">Get Updates</button>
+                        <button type="submit" name="submit" value="Get Updates" class="CenterSignUp" aria-label="Close">Get Updates</button>
                     </div>
                 </form>
             </div>
