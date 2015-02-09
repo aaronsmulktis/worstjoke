@@ -29,8 +29,8 @@
                         <input class="form-control" type="hidden" name="oc" value="gp-website">
                         <input class="form-control" type="text" name="email" id="CenterSignUp" value="Enter your E-mail address" onfocus="clearDefault(this)" onblur="replaceInputMsg(this, 'email')">
                     </div>
-                    <div class="form-group">
-                        <input class="form-control col-sm-8 nopadding" type="text" name="fname" size="20" id="FirstName" value="First name" onfocus="clearDefault(this)" onblur="replaceInputMsg(this, 'fname')">
+                    <div class="form-group col-sm-8 nopadding">
+                        <input class="form-control" type="text" name="fname" size="20" id="FirstName" value="First name" onfocus="clearDefault(this)" onblur="replaceInputMsg(this, 'fname')">
                     </div>
                     <div class="form-group col-sm-4 nopaddding padLeft20">
                         <input class="form-control" type="text" name="zip" id="ZipCode" value="US Zip" size="10" onfocus="clearDefault(this)" onblur="replaceInputMsg(this, 'zip')">
