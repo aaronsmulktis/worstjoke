@@ -23,7 +23,6 @@
                         
                     </fieldset>
                 </form> -->
-                <h2 class="text-center">Keep In Touch</h2>
                 <form name="listsform" id="listsform" method="post" action="http://members.greenpeace.org/subscribe/subscribe.php" target="_blank" onsubmit="_gaq.push(['_linkByPost', this]); return verifySubscribeForm();">
                     <div class="form-group">
                         <input class="form-control" type="hidden" name="interest" value="1281">
@@ -37,7 +36,7 @@
                         <input class="form-control" type="text" name="zip" id="ZipCode" value="US Zip" size="10" onfocus="clearDefault(this)" onblur="replaceInputMsg(this, 'zip')">
                     </div>
                     <div class="form-group text-center">
-                        <button type="submit" name="submit" value="Get Updates" class="CenterSignUp" aria-label="Close">Get Updates</button>
+                        <button type="submit" name="submit" value="Get Updates" class="CenterSignUp" aria-label="Close">Keep In Touch</button>
                     </div>
                 </form>
             </div>
