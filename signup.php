@@ -3,7 +3,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="glyphicon glyphicon-remove"></span></button>
             </div>
             <div class="modal-body">
 <!--                 <form name="listsform" id="listsform" method="post" action="http://members.greenpeace.org/subscribe/subscribe.php" target="_parent" onsubmit="_gaq.push(['_linkByPost', this]); return verifySubscribeForm();">
