@@ -23,7 +23,7 @@
                         
                     </fieldset>
                 </form> -->
-                <h2 class="text-center">Stay Informed</h2>
+                <h2 class="text-center">Keep In Touch</h2>
                 <form name="listsform" id="listsform" method="post" action="http://members.greenpeace.org/subscribe/subscribe.php" target="_blank" onsubmit="_gaq.push(['_linkByPost', this]); return verifySubscribeForm();">
                     <div class="form-group">
                         <input class="form-control" type="hidden" name="interest" value="1281">
