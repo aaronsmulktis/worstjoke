@@ -7,7 +7,7 @@
 			<div class="footer-links">
 				<ul id="menu-footer">
 					<!-- Button trigger modal -->
-					<li><a id="signupButton" class="menu-item" data-toggle="modal" data-target="#myModal">Keep In Touch</a></li>
+					<li><a id="signupButton" class="menu-item" data-toggle="modal" data-target="#myModal">Join The Movement</a></li>
 					<li>|</li>
 					<li class="pull-right menu-item"><a href="" target="_blank">Visit Our Website</a></li>
 				</ul>
@@ -66,6 +66,14 @@
 		_gaq.push(['_trackPageview','/funnel/GPsite/E-mail_SignUp/Submitted4']);
 		}
 		</script>
+
+		<script type="text/javascript">
+			    // Handler for .ready() called.
+			    $('html, body').animate({
+			        scrollTop: $('#shareHead').offset().top
+			    }, 'slow');
+		</script>
+
 		<?php wp_footer(); // js scripts are inserted using this function ?>
 	</body>
 </html>

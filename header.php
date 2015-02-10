@@ -90,6 +90,7 @@
 			    $("html, body").animate({ scrollTop: 0 }, 600);
 			    return false;
 			 });
+
   		</script>
 
   		<script src="//cdn.optimizely.com/js/5200056.js"></script> 

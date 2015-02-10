@@ -84,7 +84,7 @@ Template Name: Homepage
 			
 		</div>
 
-		<div id="shareHead" class="container-fluid"></div>
+		<div id="shareHead"></div>
 
 		<div id="shareYours" class="container-fluid">
 			<div class="row-fluid">
